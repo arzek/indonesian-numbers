@@ -1,0 +1,19 @@
+
+<h1 class="title">{{number}}</h1>
+
+<hr>
+<div class="content-btn">
+  <button *ngFor="let item of current" (click)="removeFromCurrent(item)"
+  [class]="isCorrect ? 'correct' : 'not-correct'"
+
+  >{{ item }}</button>
+</div>
+
+<hr>
+
+<div class="content-btn">
+  <button *ngFor="let item of data" (click)="addToCurrent(item)">{{ item }}</button>
+</div>
+
+<p>Lina Budiarti is the best teacher!</p>
+

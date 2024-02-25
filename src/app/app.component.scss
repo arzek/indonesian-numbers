@@ -1,0 +1,20 @@
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.content-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  gap: 0.2em;
+}
+
+.correct {
+ background-color: seagreen;
+}
+
+.not-correct {
+  background-color: pink;
+}
